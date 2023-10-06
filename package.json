@@ -1,0 +1,36 @@
+{
+  "name": "alpha-mares-api",
+  "version": "2.0.0",
+  "description": "API for Alpha Mares application.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "start-dev": "SET NODE_ENV=development & nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alexandre JOLY - SEIO",
+  "private": true,
+  "license": "CC BY-ND",
+  "dependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "formidable": "^3.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.1",
+    "nodemailer-express-handlebars": "^6.1.0",
+    "nodemon": "^2.0.20",
+    "validator": "^13.7.0"
+  }
+}

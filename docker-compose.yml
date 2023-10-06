@@ -1,0 +1,61 @@
+version: "3.8"
+services:
+  api:
+    container_name: api
+    build:
+        context: ./
+        dockerfile: Dockerfile
+    restart: always    
+    volumes:
+      - ./uploads:/usr/src/22027-Website-Alpha_Mares/uploads
+    depends_on:
+      - mongo
+    networks:
+      - mern-stack-net
+    environment:
+      - PORT=${API_PORT}
+      - MONGO_DB_ADRESS=mongodb://mongo:${MONGO_PORT}/${MONGO_DB_NAME}?directConnection=true
+      - TOKEN_SECRET=${API_TOKEN_SECRET}
+      - CLIENT_URL=https://${DOMAIN_NAME}
+      - NODE_ENV=${NODE_ENV}
+
+  mongo:
+    container_name: mongo
+    image: mongo:latest
+    restart: always
+    volumes:
+      - db-data:/data/db
+      - mongo-config:/data/configdb
+      - /mongodb/cnf:/etc/mongo/
+      - ./config/mongod.cfg:/etc/mongo/mongod.cfg
+    networks:
+      - mern-stack-net
+    # command : mongod --config /etc/mongo/mongod.cfg
+
+  nginx:
+    container_name: nginx
+    restart: always
+    image: nginx:latest
+    networks:
+      - mern-stack-net
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - api
+    volumes:
+      - ./nginx/templates:/etc/nginx/templates
+      - ./nginx/letsencrypt:/etc/letsencrypt
+      - ./client/build:/usr/share/nginx/html
+    environment:
+      - NGINX_ENVSUBST_OUTPUT_DIR=/etc/nginx/
+      - SERVER_NAME=${DOMAIN_NAME}
+      - API_ADDRESS=api:${API_PORT}
+
+networks:
+  mern-stack-net:
+    driver: bridge
+
+volumes:
+  db-data:
+  mongo-config:  
