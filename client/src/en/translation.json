@@ -1,0 +1,10 @@
+{
+    "test": "Titreeee",
+    "Navbar.Sales": "Sales",
+    "Navbar": {
+        "Sales": "Sales",
+        "Services": "Services",
+        "Media": "Media",
+        "Contact": "Contact"
+    }
+}

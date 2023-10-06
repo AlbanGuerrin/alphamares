@@ -1,0 +1,354 @@
+{
+    "Navbar": {
+        "Sales": "Sales",
+        "Services": "Services",
+        "Media": "Media",
+        "Contact": "Contact",
+        "Logout": "Logout",
+        "Sign-up": "Sign up",
+        "Sign-in": "Sign in",
+        "Profile" : "Profile"
+    },
+    "Footer": {
+        "Terms": "Terms and Conditions ",
+        "Policy": "Privacy Policy",
+        "Mentions": "Legal mention",
+        "Follow": "Follow us!"
+    },
+    "Lot": {
+        "FrozenEmbryo": "Frozen embryo",
+        "ImplantedEmbryo": "Implanted embryo",
+        "Foal": "Foal",
+        "Yearling": "Yearling",
+        "YoungHorse": "Young horse",
+        "BroodmareFull": "Broodmare Full",
+        "BroodmareEmpty": "Broodmare Empty",
+        "Stallion": "Stallion",
+        "Back-Catalog": "Back to catalog",
+        "Private": "Private",
+        "Company": "Company",
+        "General-Info": "General information",
+        "Black-Type": "Pedigree Black Type",
+        "Vet-Doc": "Veterinary Documents",
+        "Insurer1": "This lot can be insured by our partner if you wish.",
+        "Insurer2": "Contact us for more information : ",
+        "Natural": "Natural",
+        "ICSI": "ICSI",
+        "Transfer": "Transfer",
+        "N/A": "N/A",
+        "Female": "Female",
+        "Male": "Male",
+        "Unsexed": "Unsexed",
+        "Field": {
+            "Type": "Type:",
+            "Production-Date": "Production date:",
+            "Reproduction-Type": "Reproduction technique:",
+            "Due-Date": "Due date:",
+            "Sexe": "Sex:",
+            "Birthdate": "Birthdate:",
+            "Size": "Size:",
+            "Seller": "Seller:",
+            "Location": "Location:",
+            "TVA": "VAT:",
+            "Age-Carrier": "Surrogate's age:",
+            "Years": "years",
+            "Carrier-Infos": "The surrogate stays with the seller until the foal is weaned at the seller's expense, excluding foaling and costs directly related to the born foal (farrier, veterinarian, etc.)",
+            "Carrier-Size": "Surrogate's size:",
+            "Carrier-Deposit": "Surrogate's deposit:",
+            "Carrier-For-Sale": "Surrogate is for sale:",
+            "Yes": "yes",
+            "No": "no",
+            "Calculs-TVA": "The 5 cases of VAT calculation",
+            "Race": "Stud-book:",
+            "Selected-Stallion": "Selected stallion:",
+            "Comment": "Comment:"
+        },
+        "Dialog-TVA": {
+            "Title": "The calculation of the VAT leads to 5 cases:",
+            "1": "The Buyer is French and is subject to VAT: invoicing of VAT on the totality of the selling price (recoverable VAT).",
+            "2": "The Buyer is subject to VAT in an EU Member State other than France and the lot is delivered to an EU Member State: exemption from VAT (presentation of proof of export).",
+            "3": "The Buyer is subject to VAT in an EU Member State other than France and the lot remains in France: invoicing of VAT (VAT recoverable from the French tax authorities).",
+            "4": " The Buyer is not subject to VAT either in France or in another EU Member State: invoicing of VAT (non-recoverable VAT).",
+            "5": "The lot is exported out of the EU: exemption of VAT on presentation of the document attesting the export."
+        },
+        "Panel": {
+            "You-Are-Holder": "You are the lot holder",
+            "You-Are-Not-Holder-Anymore": "You no longer hold the lot",
+            "You-Are-Winner": "You are the winner of this bid",
+            "Current-Auction": "CURRENT AUCTION",
+            "Start-Auction": "STARTING PRICE",
+            "Last-Auction": "LAST AUCTION",
+            "In": "Starts in",
+            "Ends-In": "The auction ends in",
+            "Finished": "Ended auction",
+            "I-Accept": "I have read and I accept the",
+            "CGU": "Terms & Conditions of Alpha Mares",
+            "Bid": "Bid",
+            "Create-Account": "Create an account to bid",
+            "Blocked-Account": "Your account is blocked"
+        }
+    },
+    "Sign-up": {
+        "Create-Account": "Create an account",
+        "Sign-Up-To-Bid": "Register to be able to bid at our auctions.",
+        "Type": "I am a ...",
+        "Private": "Private",
+        "Company": "Company",
+        "Male": "Mr",
+        "Female": "Ms",
+        "Surname": "Last name",
+        "Firstname": "First name",
+        "Mail": "Email",
+        "Password": "Password",
+        "Confirm-Password": "Confirm password",
+        "Phone": "Phone",
+        "Address": "Address",
+        "City": "Postcode & City",
+        "Country": "Country",
+        "French": "French",
+        "English": "English",
+        "Language": "Language",
+        "Gender": "Gender",
+        "Birthdate": "Birthdate",
+        "TVA-Number": "VAT number",
+        "Company-Name" : "Company name",
+        "Your-Account": "Your account",
+        "I-Accept": "I have read and I accept the",
+        "CGU": "Terms & Conditions of Alpha Mares",
+        "Validate": "Validate my registration"
+    },
+    "Sign-in": {
+        "Login": "Login",
+        "Password": "Password",
+        "Login-To-Participate": "Log in to participate in our sales of exceptional products.",
+        "Sign-in": "Sign in",
+        "Confirm-Registered1": "Your registration has been taken into account",
+        "Confirm-Registered2": "A validation email has been sent to you in order to validate your registration and complete the creation of your account."
+    },
+    "Error": {
+        "email unverified": "Please validate your email address. \nYou received an email.",
+        "email unknown": "Email unknown",
+        "password does not match": "Password does not match",
+        "Incorrect-name": "Incorrect name",
+        "Incorrect-surname": "Incorrect surname",
+        "Incorrect-email": "Incorrect email",
+        "Incorrect-password": "Incorrect password",
+        "Incorrect-phoneNumber": "Incorrect phoneNumber",
+        "Incorrect-address": "Incorrect address",
+        "Incorrect-addressCity": "Incorrect City",
+        "Incorrect-addressCountry": "Incorrect Country",
+        "Incorrect-gender": "Incorrect gender",
+        "Incorrect-language": "Incorrect language",
+        "Incorrect-birthDate": "Incorrect birthDate",
+        "Incorrect-type": "Incorrect type",
+        "email already taken": "Email already taken",
+        "phoneNumber already taken": "PhoneNumber already taken",
+        "Blocked user": "Blocked user"
+    },
+    "Home": {
+        "intro1": "- A premium auction house 100% online.",
+        "intro2": "- A partner throughout your breeding projects.",
+        "intro3": "- A team available to help you at any time.",
+        "intro4": "Alpha Mares is an intermediary between buyer and seller,\n ensuring security and transparency.",
+        "HowToBuy": "How to Buy",
+        "HowToSell": "How to Sell",
+        "Presented-Auction": {
+            "To-come": "Auction to come",
+            "Closed": "Ended auction",
+            "In-Progress": "Ongoing auction",
+            "End": "End in",
+            "In": "Starts in",
+            "See-Catalog": "See the catalog"
+        },
+        "Tile1":{
+            "Title": "Auction house",
+            "Description": "We organise auctions of rare and exclusive products 100% Online."
+        },
+        "Tile2":{
+            "Title": "Breeding program",
+            "Description": "We can help you make all your breeding projects."
+        },
+        "Tile3":{
+            "Title": "Team of specialists",
+            "Description": "We are available to answer your questions at any time."
+        },
+        "Discover": "Discover"
+    },
+    "Services": {
+        "Title1": "Customized services",
+        "Title2": "to help you throughout your project",
+        "Transport": {
+            "title": "Transport",
+            "text": "Benefit from our transportation service to guarantee your animals a travel in the best conditions. We are at your disposal to meet your needs."
+        },
+        "Boarding": {
+            "title": "Boarding & Foaling",
+            "text": "The first events in the life of a foal must be calm, safe and comfortable. This is why we offer you to welcome your broodmare and to follow our breeding program. You can rely on the experience of our teams and the precision of the protocols in place to accompany the first steps of your foal."
+        },
+        "Care": {
+            "title": "Care & Preparation",
+            "text": "The first contacts of the foal with people are fundamental. We focus on building a relationship with him in order to teach him the basics of his future job. Prepare your foal at best for foal or 3 year old  auctions thanks to our specialized team."
+        },
+        "Valorisation": {
+            "title": "Breaking In & Valorization",
+            "text": "Step into the world of sports and take advantage of the services of our young horse rider. We are at your disposal to build your horse's program and to reach together the desired goals."
+        }
+    },
+    "Media": {
+        "Title": "Discover the most famous showjumping bloodlines of the world",
+
+        "PublishedOn" : "Published on"
+    },
+    "Contact": {
+        "Title": "Contac us",
+        "Info": "You can rely on our team of experts to answer all your questions, whether you are looking to buy or sell, or to advise you on genetics. Do not hesitate to contact us, we are here for you.",
+        "Call": "Call us :",
+        "Write": "Write to us :",
+        "Follow": "Follow us on social networks"
+    },
+    "Sales": {
+        "Title": "Sales"
+    },
+    "Bill": {
+        "Bills": "Bills",
+        "Bill": "Bill"
+    },
+    "Auction": {
+        "Begin": "Start date : ",
+        "End": "End date : ",
+        "Commission": "Buyer's commission : ",
+        "Closed": "Closed",
+        "Bid": "Bid",
+        "In": "The sale starts in ",
+        "Won": "You won the sale",
+        "YouHolder": "You are the holder",
+        "Hour" : "French hour"
+    },
+    "Auction-Card": {
+        "End-In": "Ends in",
+        "In": "In",
+        "Closed": "Auction closed on "
+    },
+    "How-Sell": {
+        "How-Sell": "How to Sell",
+        "3-steps": "Submit your offer in 3 steps",
+        "Step": "Step",
+        "Create-Account": "Create an account",
+        "Or": "or",
+        "Log-In": "login",
+        "Enter-Infos": "Enter the information of the product to be sold",
+        "Upload-Docs": "Upload photos & videos related to the product",
+        "Type": "Type",
+        "Father": "Father",
+        "Mother": "Mother",
+        "Birthdate": "Birthdate",
+        "Location": "Lot location",
+        "Price": "Price estimate",
+        "Next": "Next",
+        "Summary": "Summary",
+        "Modify": "Modify",
+        "Images": "Images of the lot",
+        "Video-Link": "Youtube video link",
+        "Send": "Send",
+        "Trust-us": "Trust in us",
+        "Trust-us1": "to find the ideal buyer for your exceptional lot",
+        "Trust-us2": "Do you have a question? Contact us ",
+        "Alert-succes": "Your proposal has been sent successfully!",
+        "Alert-failed": "An error occurred while sending your message."
+    },
+    "How-Buy": {
+        "How-Buy": "How to Buy",
+        "Step": "Step",
+        "Sign-up": "Register",
+        "to-Bid": "to bid",
+        "Confirm-Email": "Confirm your registration by email",
+        "Log-In": "Log in",
+        "Bid": "Bid!"
+    },
+    "Infos": {
+        "My-Infos": "My informations",
+        "Surname": "Surname",
+        "Firstname": "Firstname",
+        "Password": "Password",
+        "Phone": "Phone (Ex : +33678912345)",
+        "Address": "Address",
+        "Country": "Country",
+        "Language": "Language",
+        "Gender": "Gender",
+        "Birthdate": "Birthdate",
+        "TVA-Number": "VAT number",
+        "Company-Name" : "Company name",
+        "Male": "Male",
+        "Female": "Female",
+        "Private": "Private",
+        "Company": "Company",
+        "Modify": "Modify",
+        "Save": "Save"
+    },
+    "Followed": {
+        "My-Follows": "My favorite lots",
+        "Followed-Lot": "Favorite lots"
+    },
+    "Legal-Notice": {
+        "Legal-Notice": "Legal notice",
+        "Legal-Notice1": "Pursuant to Article 6 of Law No. 2004-575 of 21 June 2004 on confidence in the digital economy, users of the site are informed that",
+        "Legal-Notice2": "the identity of the various parties involved in its implementation and follow-up.",
+        "Legal-Notice3": "In accordance with the law 'informatique et libertés' of January 6, 1978 modified in 2004, you have the right to access and rectify information concerning you, which you can exercise by contacting",
+        "Editor": "Website editor",
+        "Company-Name": "Company name",
+        "Company-Status": "Company status",
+        "RCS": "Companies register code",
+        "Capital": "Share capital",
+        "VAT-Number": "VAT number",
+        "Company-Headquarter": "Head office address",
+        "Email": "Email",
+        "Legal-Representative": "Legal representative",
+        "Publication-Director": "Name of the director of the publication",
+        "Host": "Site host",
+        "Host-Status": "Company status",
+        "Host-Headquarter": "Head office address",
+        "Website": "Website"
+    },
+    "Reset-Password":{
+        "Forgotten-Password" : "Forgotten password",
+        "Enter-Email": "To reset your password, enter the email address you used to register.",
+        "Send" : "Reset your password",
+        "Confirm" : "New password sent at: ",
+        "Verify-Spam": "Check that the e-mail address you have entered is the correct one, or that the e-mail has not slipped into the spam folder.",
+        "Resend": "Send the email again",
+        "No-Email": "Did not receive the email ?",
+        "Error" : {
+            "Title" : "Error",
+            "No-Account" : "This email address does not correspond to any account",
+            "Error" : "An error has occurred. Please try again later or contact the site administrator."
+        },
+
+        "Success": {
+            "Title" : "Password changed",
+            "Success" : "Your password has been changed.",
+            "Login" : "Login"
+        },
+
+        "Reset-Title" : "Reset your password",
+        "Complete-This" : "To reset your password, please fill in the fields below :",
+        "Must-Contains" : " Your password must include :",
+        "Criteria-1" : "at least 6 characters",
+        "Criteria-2" : "at least one upper case letter and one lower case letter",
+        "Criteria-3" : "at lesat one number",
+
+        "Placeholder-Password": "Password",
+        "Placeholder-Confirm-Password": "Confirm password",
+
+        "Invalid-Token":{
+            "Title": "Invalid or expired link",
+            "Invalid-Expired": "The link is invalid or has expired.",
+            "Ask-New-Link": "Please request a reset link again:",
+            "Receive-New" : "Receive a new link"
+        },
+
+        "Checking":{
+            "Title": "Checking",
+            "Please-Wait": "Please wait while we check the validity of the link."
+        }
+    }
+}

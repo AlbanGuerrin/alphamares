@@ -1,0 +1,354 @@
+{
+    "Navbar": {
+        "Sales": "Ventes",
+        "Services": "Services",
+        "Media": "Médias",
+        "Contact": "Contact",
+        "Logout": "Déconnexion",
+        "Sign-up": "S'inscrire",
+        "Sign-in": "Se connecter",
+        "Profile" : "Profil"
+    },
+    "Footer": {
+        "Terms": "Conditions Génèrales d'Utilisation",
+        "Policy": "Politique de Confidentialité",
+        "Mentions": "Mentions Légales",
+        "Follow": "Suivez-nous !"
+    },
+    "Lot": {
+        "FrozenEmbryo": "Embryon congelé",
+        "ImplantedEmbryo": "Embryon implanté",
+        "Foal": "Poulain",
+        "Yearling": "Yearling",
+        "YoungHorse": "Jeune cheval",
+        "BroodmareFull": "Porteuse pleine",
+        "BroodmareEmpty": "Porteuse vide",
+        "Stallion": "Étalon",
+        "Back-Catalog": "Retour au catalogue",
+        "Private": "particulier",
+        "Company": "professionel",
+        "General-Info": "Information générales",
+        "Black-Type": "Pedigree Black Type",
+        "Vet-Doc": "Documents vétérinaires",
+        "Insurer1": "Ce lot pourra être assuré par notre partenaire si vous le souhaitez.",
+        "Insurer2": "Contactez-nous pour plus de renseignements : ",
+        "Natural": "Naturel",
+        "ICSI": "ICSI",
+        "Transfer": "Transfer",
+        "N/A": "N/A",
+        "Female": "Femelle",
+        "Male": "Mâle",
+        "Unsexed": "Non sexé",
+        "Field": {
+            "Type": "Type de lot :",
+            "Production-Date": "Date de production :",
+            "Reproduction-Type": "Type de reproduction :",
+            "Due-Date": "Date de terme :",
+            "Sexe": "Sexe :",
+            "Birthdate": "Date de naissance :",
+            "Size": "Taille :",
+            "Seller": "Vendeur :",
+            "Location": "Localisation :",
+            "TVA": "TVA :",
+            "Age-Carrier": "Age porteuse :",
+            "Years": "ans",
+            "Carrier-Infos": "La mère reste chez le vendeur jusqu'au sevrage du foal aux frais du vendeur hors poulinage et frais liés directement au foal né (maréchal, vétérinaire, etc.)",
+            "Carrier-Size": "Taille porteuse :",
+            "Carrier-Deposit": "Caution porteuse :",
+            "Carrier-For-Sale": "Porteuse à vendre :",
+            "Yes" : "oui",
+            "No" : "non",
+            "Calculs-TVA": "Les 5 cas de calcul de la TVA",
+            "Race" : "Stud-book :",
+            "Selected-Stallion" : "Etalon choisi :",
+            "Comment": "Commentaire :"
+        },
+        "Dialog-TVA": {
+            "Title": "Le calcul de la T.V.A. donne lieu à 5 cas :",
+            "1": "L'Acheteur est français et est assujetti à la T.V.A. : facturation de T.V.A. sur la totalité du Prix de vente (T.V.A. récupérable).",
+            "2": "L'Acheteur est assujetti à la T.V.A. dans un Pays Membre de l'U.E. autre que la France et le lot est livré dans un Pays Membre de l'U.E. : éxonération de T.V.A. (présentation du justificatif d'exportation).",
+            "3": "L'Acheteur est assujetti à la T.V.A. dans un Pays Membre de l'U.E. autre que la France et le lot reste en France : facturation de la T.V.A. (T.V.A. récupérable auprès des services fiscaux français).",
+            "4": "L'Acheteur est non assujetti à la T.V.A., ni en France ni dans un autre Pays Membre de l'U.E. : facturation de la T.V.A. (T.V.A. récupérable).",
+            "5": "Le lot est exporté hors de l'U.E : éxonération de T.V.A. sur présentation du document attestant l'exportation."
+        },
+        "Panel": {
+            "You-Are-Holder": "Vous êtes détenteur du lot",
+            "You-Are-Not-Holder-Anymore": "Vous n'êtes plus détenteur du lot",
+            "You-Are-Winner": "Vous êtes le gagnant de cette enchère",
+            "Current-Auction": "ENCHERE ACTUELLE",
+            "Start-Auction": "PRIX DE DEPART",
+            "Last-Auction": "DERNIERE ENCHERE",
+            "In": "Commence dans : ",
+            "Ends-In": "L'enchère se termine dans",
+            "Finished": "Enchère terminée",
+            "I-Accept": "J'ai lu et j'accepte les",
+            "CGU": "Conditions Générales d'Utilisation",
+            "Bid": "Enchérir",
+            "Create-Account": "Créer un compte pour enchérir",
+            "Blocked-Account": "Votre compte est bloqué"
+        }
+    },
+    "Sign-up": {
+        "Create-Account": "Créer un compte",
+        "Sign-Up-To-Bid": "Inscrivez-vous pour pouvoir enchérir lors de nos ventes aux enchères.",
+        "Type": "Je suis ...",
+        "Private": "un particulier",
+        "Company": "un professionel",
+        "Male": "Monsieur",
+        "Female": "Madame",
+        "Surname": "Nom",
+        "Firstname": "Prénom",
+        "Mail": "Mail",
+        "Password": "Mot de passe",
+        "Confirm-Password": "Confirmer mot de passe",
+        "Phone": "Téléphone",
+        "City": "Code Postal & Ville",
+        "Address": "Adresse",
+        "Country": "Pays",
+        "French": "Français",
+        "English": "Anglais",
+        "Language": "Langue",
+        "Gender": "Civilité",
+        "Birthdate": "Date de naissance",
+        "TVA-Number": "N° TVA",
+        "Company-Name" : "Nom de l'entreprise",
+        "Your-Account": "Votre compte",
+        "I-Accept": "J'ai lu et j'accepte les",
+        "CGU": "Conditions Générales d'Utilisation",
+        "Validate": "Valider mon inscription"
+    },
+    "Sign-in": {
+        "Login": "Connexion",
+        "Password": "Mot de passe",
+        "Login-To-Participate": "Connectez-vous pour participer à nos ventes de produits d'exception.",
+        "Sign-in": "Se connecter",
+        "Confirm-Registered1": "Votre inscription a bien été prise en compte",
+        "Confirm-Registered2": "Un mail de validation vous a été envoyé afin de valider votre inscription et de finaliser la création de votre compte."
+    },
+    "Error": {
+        "email unverified": "Veuillez vérifier votre boîte mail. \nVous avez reçu un email de vérification.",
+        "email unknown": "Email inconnu",
+        "password does not match": "Le mot de passe ne correspond pas",
+        "Incorrect-name": "Nom incorrect incorrect",
+        "Incorrect-surname": "Prénom incorrect",
+        "Incorrect-email": "Email incorrect",
+        "Incorrect-password": "Mot de passe incorrect",
+        "Incorrect-phoneNumber": "Numéro de téléphone incorrect",
+        "Incorrect-address": "Adresse incorrecte",
+        "Incorrect-addressCity": "Vlle incorrecte",
+        "Incorrect-addressCountry": "Pays incorrect",
+        "Incorrect-gender": "Civilité incorrecte",
+        "Incorrect-language": "Langue incorrecte",
+        "Incorrect-birthDate": "Date de naissance incorrecte",
+        "Incorrect-type": "Type incorrect",
+        "email already taken": "Email déjà prit",
+        "phoneNumber already taken": "Numéro de téléphone déjà prit",
+        "Blocked user": "Utilisateur bloqué"
+    },
+    "Home": {
+        "intro1": "- Une Maison de Ventes haut de gamme 100% Online.",
+        "intro2": "- Un partenaire qui vous accompagne dans vos projets d'élevage.",
+        "intro3": "- Une équipe disponible pour vous aider et vous répondre à tout moment.",
+        "intro4": "Alpha Mares agit comme intermédiaire de vente, assurant sécurité et transparence.",
+        "HowToBuy": "Comment acheter",
+        "HowToSell": "Comment vendre",
+        "Presented-Auction": {
+            "To-come": "Vente à venir",
+            "Closed": "Vente clôturée",
+            "In-Progress": "Vente en cours",
+            "End": "Fin dans",
+            "In": "Commence dans",
+            "See-Catalog": "Voir le catalogue"
+        },
+        "Tile1":{
+            "Title": "Maison de Ventes",
+            "Description": "Nous organisons des ventes de produits rares et exclusifs 100% Online."
+        },
+        "Tile2":{
+            "Title": "Programme d'élevage",
+            "Description": "Nous vous aidons à concrétiser tous vos projets d'élevage."
+        },
+        "Tile3":{
+            "Title": "Équipe spécialisée",
+            "Description": "Nous sommes à votre disposition pour répondre à vos questions."
+        },
+        "Discover": "Découvrir"
+    },
+    "Services": {
+        "Title1": "Des services sur mesure",
+        "Title2": "pour vous accompagner tout au long de votre projet",
+        "Transport": {
+            "title": "Transport",
+            "text": "Profitez de notre service de transport pour garantir à vos animaux un voyage dans les meilleures conditions. Nous sommes à votre écoute pour répondre à votre besoin."
+        },
+        "Boarding": {
+            "title": "Pension & Poulinage",
+            "text": "Les premiers évènements de la vie d'un poulain doivent être calmes, rassurants et sécurisés. C'est pourquoi nous vous proposons d'accueillir votre poulinière et de suivre notre programme d'élevage. Comptez ainsi sur l'expérience de nos équipes et la précision des protocoles mis en place pour accompagner les premiers pas de votre poulain."
+        },
+        "Care": {
+            "title": "Manipulation & Préparation aux ventes",
+            "text": "Les premiers contacts du poulain avec l'homme sont fondamentaux. Nous nous attachons à construire avec lui un relationnel afin de lui apprendre les bases de son futur métier. Préparez au mieux votre poulain pour les ventes de foals ou de jeunes chevaux de 3 ans grâce à notre équipe spécialisée."
+        },
+        "Valorisation": {
+            "title": "Débourrage & Valorisation",
+            "text": "Entrez dans le monde du sport et disposez des services de notre cavalier jeunes chevaux. Nous sommes à votre écoute pour construire le programme de votre cheval et atteindre ensemble les objectifs fixés."
+        }
+    },
+    "Media": {
+        "Title": "Faites la découverte des meilleurs courants de sang et des plus préstigieuses lignées du saut d'obstacles",
+
+        "PublishedOn": "Publié le"
+    },
+    "Contact": {
+        "Title": "Contactez-nous",
+        "Info": "Vous pouvez compter sur notre équipe d'experts pour répondre à toutes vos questions, aussi bien pour vous aider à acheter ou à vendre que pour vous conseiller en matière de génétique. N'hésitez pas à nous contacter, nous sommes là pour vous.",
+        "Call": "Appelez-nous :",
+        "Write": "Ecrivez-nous :",
+        "Follow": "Suivez-nous sur les réseaux sociaux"
+    },
+    "Sales": {
+        "Title": "Ventes"
+    },
+    "Bill": {
+        "Bills": "Factures",
+        "Bill": "Facture"
+    },
+    "Auction": {
+        "Begin": "Date de début : ",
+        "End": "Date de fin : ",
+        "Commission": "Commission acheteur : ",
+        "Closed": "Vente terminée",
+        "Bid": "Enchérir",
+        "In": "La vente commence dans ",
+        "Won": "Vous avez gagné cette enchère",
+        "YouHolder": "Vous êtes détenteur de l'enchère",
+        "Hour" : "Heure française"
+    },
+    "Auction-Card": {
+        "End-In": "Fin dans",
+        "In": "Dans",
+        "Closed": "Vente clôturée le "
+    },
+    "How-Sell": {
+        "How-Sell": "Comment vendre",
+        "3-steps": "Transmettez votre offre en 3 étapes",
+        "Step": "Etape",
+        "Create-Account": "Créer un compte",
+        "Or": "\nou",
+        "Log-In": "se connecter",
+        "Enter-Infos": "Saisissez les informations du produit à vendre",
+        "Upload-Docs": "Téléchargez les documents utiles liés au produit",
+        "Type": "Type",
+        "Father": "Père",
+        "Mother": "Mère",
+        "Birthdate": "Date de naissance",
+        "Location": "Localisation du lot",
+        "Price": "Estimation du prix",
+        "Next": "Suivant",
+        "Summary": "Récapitulatif",
+        "Modify": "Modifier",
+        "Images": "Images du lot",
+        "Video-Link": "Lien vidéo Youtube",
+        "Send": "Envoyer",
+        "Trust-us": "Faites-nous confiance",
+        "Trust-us1": "pour trouver l'acheteur idéal de votre lot d'exception",
+        "Trust-us2": "Vous avez une question ? Contactez-nous ",
+        "Alert-succes": "Votre proposition a été envoyé avec succès !",
+        "Alert-failed": "Une erreur est survenue lors de l'envoi de votre message."
+    },
+    "How-Buy": {
+        "How-Buy": "Comment acheter",
+        "Step": "Etape",
+        "Sign-up": "Inscrivez-vous",
+        "to-Bid": "pour enchérir",
+        "Confirm-Email": "Confirmez votre inscription par email",
+        "Log-In": "Connectez-vous",
+        "Bid": "Enchérissez"
+    },
+    "Infos": {
+        "My-Infos": "Mes informations",
+        "Surname": "Nom",
+        "Firstname": "Prénom",
+        "Password": "Mot de passe",
+        "Phone": "Téléphone (Ex : +33678912345)",
+        "Address": "Adresse",
+        "Country": "Pays",
+        "Language": "Langue",
+        "Gender": "Civilité",
+        "Birthdate": "Date de naissance",
+        "TVA-Number": "N° TVA",
+        "Company-Name" : "Nom de l'entreprise",
+        "Male": "Homme",
+        "Female": "Femme",
+        "Private": "Particulier",
+        "Company": "Professionel",
+        "Modify": "Modifier",
+        "Save": "Enregistrer"
+    },
+    "Followed": {
+        "My-Follows": "Mes lots suivis",
+        "Followed-Lot": "Lots suivis"
+    },
+    "Legal-Notice": {
+        "Legal-Notice": "Mentions légales",
+        "Legal-Notice1": "En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site",
+        "Legal-Notice2": "l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi.",
+        "Legal-Notice3": "Conformément à la loi « informatique et libertés » du 6 janvier 1978 modifiée en 2004, vous bénéficiez d'un droit d'accès et de rectification aux informations qui vous concernent, que vous pouvez exercer en vous adressant à",
+        "Editor": "Editeur du site internet",
+        "Company-Name": "Dénomination sociale",
+        "Company-Status": "Statut de la société",
+        "RCS": "RCS",
+        "Capital": "Capital social",
+        "VAT-Number": "Numéro de TVA",
+        "Company-Headquarter": "Adresse du siège social",
+        "Email": "Adresse électronique",
+        "Legal-Representative": "Représentant légal",
+        "Publication-Director": "Nom du directeur de la publication",
+        "Host": "Hébergeur du site",
+        "Host-Status": "Statut de la société",
+        "Host-Headquarter": "Adresse du siège social",
+        "Website": "Site internet"
+    },
+    "Reset-Password":{
+        "Forgotten-Password" : "Mot de passe oublié",
+        "Enter-Email": "Pour réinitialiser votre mot de passe, renseignez l'adresse email avec laquelle vous vous êtes inscrit.",
+        "Send" : "Réinitialiser votre mot de passe",
+        "Confirm" : "Un email vient d'être envoyé à l'adresse suivante :",
+        "Verify-Spam": "Vérifiez que l'adresse mail saisie est bien la bonne, ou que le mail ne s'est pas glissé dans les spams.",
+        "Resend": "Envoyer à nouveau le mail",
+        "No-Email": "Vous n'avez pas reçu d'email ?",
+        "Error" : {
+            "Title": "Erreur",
+            "No-Account" : "Cette adresse mail ne correspond à aucun compte",
+            "Error" : "Une erreur est survenue. Veuillez réessayer ultérieurement ou contacter l'administrateur du site."
+        },
+
+        "Success": {
+            "Title" : "Modification du mot de passe",
+            "Success" : "Votre mot de passe à bien été modifié.",
+            "Login" : "Se connecter"
+        },
+
+        "Reset-Title" : "Réinitialisation votre mot de passe",
+        "Complete-This" : "Pour réinitialiser votre mot de passe, veuillez compléter les champs ci-dessous :",
+        "Must-Contains" : "Votre mot de passe doit contenir :",
+        "Criteria-1" : "au moins 6 charactères",
+        "Criteria-2" : "au moins une majuscule et une minuscule",
+        "Criteria-3" : "au moins un chiffre",
+
+        "Placeholder-Password": "Mot de passe",
+        "Placeholder-Confirm-Password": "Confirmer le mot de passe",
+
+        "Invalid-Token":{
+            "Title": "Lien invalide ou expiré",
+            "Invalid-Expired": "Le lien est invalide ou a expiré.",
+            "Ask-New-Link": "Veuillez refaire la demande d'un lien de réinitialisation :",
+            "Receive-New" : "Recevoir un nouveau lien"
+        },
+
+        "Checking":{
+            "Title": "Vérification",
+            "Please-Wait": "Merci de patienter le temps que l'on vérifie la validité du lien."
+        }
+    }
+}

@@ -1,0 +1,8 @@
+# Robot file for Alpha Mares
+# @uthor: Alexandre Joly - SEIO - 2023
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+
+User-agent: GPTBot
+Disallow: /
