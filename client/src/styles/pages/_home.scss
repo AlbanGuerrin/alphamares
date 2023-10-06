@@ -1,0 +1,136 @@
+.Home {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 30%, rgba(12, 60, 60, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+
+    .img-presentedAuction{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 8vw;
+        @media screen and(max-width: $size-mobile) {
+            margin-bottom: calc(8vh + 8vw);
+        }
+    }
+
+    .horse-logo {
+        margin-top: 5vh;
+        @media screen and(max-width: $size-mobile) {
+            margin-top: 1vw;
+          }
+    }
+
+    img {
+        width: 70%;
+
+        @media screen and(max-width: $size-mobile) {
+            width: 90%;
+        }
+    }
+
+    hr {
+        width: 50%;
+        margin-block: 8vw;
+    }
+
+    h1 {
+        font-size: calc(1rem + 3vw);
+        font-family: $font-1;
+        margin: 2vh;
+        color: $color-1;
+        font-weight: $weight-regular;
+
+        @media screen and(max-width: $size-mobile) {
+            font-size: calc(1rem + 3vh);
+        }
+    }
+
+
+    h2 {
+        font-size: calc(0.5rem + 2vw);
+        line-height: calc(0.5rem + 2vw);
+        margin: 3vh 3vw;
+
+        @media screen and(max-width: $size-mobile) {
+            font-size: calc(0.5rem + 2vh);
+            line-height: calc(0.5rem + 2vh);
+        }
+    }
+
+    h3 {
+        font-size: calc(0.5rem + 2vw);
+        line-height: calc(0.5rem + 2vw);
+        margin: 3vh;
+
+        @media screen and(max-width: $size-mobile) {
+            font-size: calc(0.5rem + 1.5vh);
+            line-height: calc(0.5rem + 1.5vh);
+        }
+    }
+
+    .tiles{
+        display: flex;
+        margin: 5vw;
+        gap: 5%;
+
+        @media screen and(max-width: $size-mobile) {
+            flex-direction: column;
+            width: 80%;
+            row-gap: 5vh;
+        }
+
+    }
+
+    .btn-and-images {
+        display: flex;
+
+        @media screen and(max-width: $size-mobile) {
+            display: block;
+        }
+
+        .col {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            
+
+            .btn-Home {
+                margin: 5vh 0;
+                font-size: calc(1rem + 2vw);
+                border-color: white;
+                border: 2px solid;
+                padding: calc(10px + 1vw) 0;
+                border-radius: $border-radius;
+                width: calc(75% - 4px);
+
+                @media screen and(max-width: $size-mobile) {
+                    margin: 2vh 0;
+                }
+            }
+
+            .btn-Home:hover {
+                background-color: $color-1;
+                border-color: $color-1;
+                color: black;
+            }
+
+            img {
+                width: 75%;
+                object-fit: cover;
+                @media screen and(max-width: $size-mobile) {
+                    width: 80%;
+                }
+            }
+
+            .none {
+                @media screen and(max-width: $size-mobile) {
+                    display: none;
+                }
+            }
+        }
+    }
+}

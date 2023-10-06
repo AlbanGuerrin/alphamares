@@ -1,0 +1,69 @@
+.postCard {
+  margin: 5% 1%;
+  align-items: center;
+
+  width: 70%;
+  height: 40vh;
+
+  @media screen and(max-width: $size-mobile) {
+    width: 80%;
+  }
+
+
+  .MuiCard-root {
+    display: flex;
+    height: 100%;
+
+    @media screen and(max-width: $size-mobile) {
+      display: block;
+    }
+
+    .MuiCardMedia-root {
+      height: 100%;
+      width: 40%;
+
+      @media screen and(max-width: $size-mobile) {
+        height: 60%;
+        width: 100%;
+      }
+    }
+
+    .MuiCardContent-root{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding-bottom: 5vh;
+
+      @media screen and(max-width: $size-mobile) {
+        padding-bottom: 2vh;
+      }
+
+      .date{
+        color: $color-4;
+      }
+    }
+
+    h1 {
+      font-size: 2.5em;
+      font-size: bold;
+
+      @media screen and(max-width: $size-mobile) {
+        font-size: 2em;
+      }
+    }
+
+    .quill-text {
+      height: 70%;
+      padding: 2%;
+      font-size: 1.5em;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .shadow{
+      height: 5vh;
+      transform: translate(0, -3vh);
+      box-shadow: inset 0 -4vh 3vh rgb(255, 255, 255);
+    }
+  }
+}

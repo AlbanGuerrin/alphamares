@@ -1,0 +1,139 @@
+.create-post-dialog {
+    .MuiDialog-container {
+        width: 100%;
+        .MuiPaper-root {
+            width: 80%;
+            margin: 0;
+            max-width: 98%;
+
+            .form-container {
+                padding: 2vw 5vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 20px;
+
+                hr{
+                    background: none;
+                    background-color: #ccc;
+                    height: 1px;
+                    width: 5px;
+                    margin: auto;
+                }
+
+                .field {
+                    margin-bottom: 20px;
+                    display: flex;
+                    align-items: flex-end;
+
+                    label {
+                        // font-weight: bold;
+                        font-size: 1.5em;
+                        margin-inline: 10px;
+                        white-space: nowrap;
+                    }
+
+                    img {
+                        margin-left: 20px;
+                        height: 1.5em;
+                    }
+
+                    input[type=text] {
+                        border-bottom: 1px solid gray;
+                        border-radius: 0;
+                        transition: 0.2 linear;
+                        padding: 0;
+                        font-weight: bold;
+
+                        &:hover {
+                            border-bottom: 2px solid gray;
+
+                        }
+
+                        &:focus {
+                            border-bottom: 2px solid $color-4;
+                        }
+                    }
+
+                    input[type=file] {
+                        padding: 0;
+                        border-radius: 0;
+                    }
+
+                    textarea {
+                        background-color: rgba(128, 128, 128, 0.185);
+                        padding: 20px;
+
+                        &:focus {
+                            background-color: white;
+                            border: 0.1px solid gray;
+                        }
+                    }
+
+
+
+                }
+
+                .preview-editor {
+                    display: flex;
+                    gap: 1%;
+
+                    u {
+                        text-decoration: underline;
+                    }
+
+                    s {
+                        text-decoration: line-through;
+                    }
+
+                    // .preview-container,
+                    .quill {
+                        flex: 1;
+                    }
+
+                    // .preview-title {
+                    //     height: 40px;
+                    //     text-align: center;
+                    //     font-size: 1.5rem;
+                    // }
+
+                    // .preview {
+                    //     border: 1px solid #ccc;
+                    //     padding: 1vw;
+
+                    //     .ql-align-center {
+                    //         text-align: center;
+                    //     }
+
+                    //     .ql-align-right {
+                    //         text-align: right;
+                    //     }
+
+                    //     .ql-align-justify {
+                    //         text-align: justify;
+                    //     }
+
+                        
+                    // }
+
+                    .quill {
+                        margin-bottom: 40px;
+                        .ql-container {
+                            // min-height: 200px;
+                            font-family: $font-2;
+                            font-size: 1em;
+                            .ql-editor {
+                                padding: 1vw;
+                            }
+                        }
+                    }
+                }
+
+                button {
+                    margin: auto;
+                }
+            }
+        }
+    }
+
+}

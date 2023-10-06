@@ -1,0 +1,82 @@
+.presented-auction {
+    transition: all .25s linear;
+    position: absolute;
+    top: calc(23vw);
+    //transform: translate(0, calc(-12vw));
+    max-width: 80%;
+
+    h1 {
+        font-family: $font-2;
+    }
+
+    h2 {
+        color: white;
+    }
+
+    .card-auction {
+        box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+        border-radius: $card-border-radius;
+        border: solid 2px white;
+        padding: 1vw 2vw;
+        text-align: center;
+        z-index: 1;
+        top: calc(1rem + 30vw);
+        font-size: 2rem;
+        line-height: 2rem;
+        max-width: 100%;
+
+        // pointer-events: none;
+
+        @media screen and(max-width: $size-mobile) {
+            padding: 2vh 3vh;
+
+        }
+
+
+        a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h2 {
+            margin: 0;
+        }
+
+        h3,
+        button {
+            font-size: calc(1rem + 1vw);
+        }
+
+        button {
+            border: none;
+            padding: 0;
+
+            pointer-events: auto;
+
+            &:hover {
+                background-color: transparent;
+                color: $color-1;
+            }
+        }
+
+    }
+
+
+    .card-auction:hover {
+        transition: all 0.15s linear;
+        background-color: rgba(239, 193, 109, 0.15);
+        border: solid 2px $color-1;
+        font-size: 2.1rem;
+        backdrop-filter: blur(30px);
+        box-shadow: 0 10px 30px rgba(239, 193, 109, 0.2);
+        transform: translate(0, -0.5vh);
+    }
+
+
+    .title {
+        font-size: calc(1rem + 1vw);
+        font-weight: $weight-regular;
+        color: white;
+    }
+}

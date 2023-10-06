@@ -1,0 +1,22 @@
+.bills{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+    .btn{
+        margin: auto;
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 3%;
+        margin-block: 1vh;
+
+        @media screen and(max-width: $size-mobile) {
+            width: 70%;
+            white-space: normal;
+            display: block;
+        }
+    }
+}

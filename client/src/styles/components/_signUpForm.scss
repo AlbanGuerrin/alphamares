@@ -1,0 +1,202 @@
+
+.title-sign-up{
+    width: 70%;
+    margin-top: 5vw;
+    transform: translate(0, 0);
+    @media screen and(max-width: $size-mobile) {
+        margin: 5vh;
+        transform: translate(0, 0);
+    }
+
+    h1{
+        font-size: calc(1rem + 2vw);
+        color: $color-1;
+    }
+    h3{
+        font-size: calc(1rem + 1vw);
+    }
+}
+
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 60%;
+    }
+
+    .sign-up-form {
+        width: 80%;
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+        border-radius: $border-radius;
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 2vh;
+        text-align: center;
+        z-index: 1;
+        margin: 0 0 0 0;
+        transform: translate(0, calc(-35vh ));
+
+        @media screen and(max-width: 1000px) {
+            width: 88%;
+            transform: translate(0, -15vh);
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+            .title {
+                margin: 1% 0 0 0;
+                font-size: calc(0.5rem + 1vw);
+
+                h1 {
+                    color: $color-1;
+                    font-weight: $weight-bold;
+                }
+
+                @media screen and(max-width: $size-mobile) {
+                    font-size: calc(1rem + 1vw);
+                    margin: 5% 0 0 0;
+                }
+            }
+
+            .row {
+                flex: 2;
+                width: 90%;
+                justify-content: center;
+                align-items: flex-start;
+                margin: 3% 0;
+
+                @media screen and(max-width: $size-mobile) {
+                    display: block;
+                    width: 100%;
+                    margin: 1% 0;
+                }
+
+                .field {
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                    flex-grow: 1;
+
+                    label {
+                        font-size: calc(0.5rem + 1vw);
+                        margin-bottom: 10px;
+
+                        @media screen and(max-width: $size-mobile) {
+                            font-size: calc(1rem + 1vh);
+                        }
+                    }
+
+                    @media screen and(max-width: $size-mobile) {
+                        margin: 5%;
+                    }
+
+                    .MuiTextField-root,
+                    .MuiAutocomplete-root,
+                    .MuiSelect-select,
+                    input {
+                        // border: none;
+                        background-color: white;
+                        border-radius: 8px;
+                        font-size: calc(0.5rem + 1vw);
+                        line-height: calc(1rem + 1vw);
+
+                        @media screen and(max-width: $size-mobile) {
+                            font-size: calc(1rem + 1vh);
+                            line-height: calc(1rem + 2vh);
+                        }
+
+                        .MuiOutlinedInput-notchedOutline {
+                            border: none;
+                        }
+                    }
+
+
+                    .MuiFormGroup-root {
+                        color: white;
+                    }
+
+                    .radio {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        label{
+                            margin-bottom: 0;
+                            white-space: nowrap;
+                        }
+
+                        input{
+                            margin-left: 10%;
+                            margin-right: 3%;
+                            width: 2vw;
+                            height: 2vw;
+                        }
+                    }
+
+                }
+
+                .input-spec {
+                    input {
+                        width: auto;
+                    }
+                }
+            }
+
+            .terms {
+                width: 80%;
+                display: flex;
+                gap: 3%;
+                align-items: flex-start;
+                font-size: calc(0.8rem + 1vw);
+                white-space: nowrap;
+                justify-content: center;
+
+                input {
+                    width: 1.2vw;
+                    height: 1.2vw;
+
+                    @media screen and(max-width: $size-mobile) {
+                        width: 2vh;
+                        height: 2vh;
+                    }
+                }
+
+                @media screen and(max-width: $size-mobile) {
+                    padding: 0 1%;
+                    font-size: calc(1rem + 1vw);
+                    white-space: normal;
+                }
+
+                a {
+                    color: $color-1;
+                }
+            }
+
+            .submit {
+                margin: 2%;
+                
+                .btn{
+                    font-size: calc(0.8rem + 1vw);
+                }
+            }
+
+            .error {
+                color: rgb(187, 52, 52);
+                font-weight: bold;
+                margin: 1%;
+                font-size: calc(1rem + 0.5vw);
+
+                @media screen and(max-width: 1000px) {
+                    font-size: calc(1rem + 0.5vh);
+                }
+              }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.sales {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+
+    @media screen and(max-width: $size-mobile) {
+        .MuiCard-root {
+            width: 85%;
+        }
+    }
+}

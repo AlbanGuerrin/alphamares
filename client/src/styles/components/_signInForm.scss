@@ -1,0 +1,117 @@
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    img {
+        width: 50%;
+        height: 30vh;
+        object-fit: cover;
+        @media screen and(max-width: $size-mobile) {
+            width: 90%;
+        }
+    }
+
+    form {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.1);
+        transform: translate(0, -20vh);
+        padding: 2%;
+        text-align: center;
+        z-index: 1;
+
+        .confirm-registered {
+            text-align: center;
+            color: $success-color;
+            margin: 2%;
+            font-size: calc(1rem + 0.8vw);
+
+            @media screen and(max-width: $size-mobile) {
+                font-size: calc(1rem + 0.8vh);
+            }
+        }
+
+        @media screen and(max-width: $size-mobile) {
+            transform: translate(0, -20vh);
+            width: 80%;
+            padding: 5% 2%;
+        }
+
+        h1 {
+            font-weight: $weight-bold;
+            font-size: calc(1rem + 2vw);
+            color: $color-1;
+
+            @media screen and(max-width: $size-mobile) {
+                font-size: calc(1rem + 2vh);
+            }
+        }
+
+        label {
+            font-size: calc(0.8rem + 1vw);
+
+            @media screen and(max-width: $size-mobile) {
+                font-size: calc(1rem + 1vh);
+            }
+        }
+
+        input {
+            font-size: calc(0.5rem + 1vw);
+
+            @media screen and(max-width: $size-mobile) {
+                font-size: calc(1rem + 1vh);
+            }
+
+            width: 90%;
+            padding-left: 3%;
+            margin-bottom: 2%;
+        }
+
+        .btn {
+            width: 70%;
+            margin: 2%;
+            margin-bottom: 5%;
+            font-size: calc(0.8rem + 1vw);
+
+            @media screen and(max-width: $size-mobile) {
+                font-size: calc(1rem + 1vh);
+            }
+        }
+    }
+
+    h2 {
+        width: 90%;
+        text-align: center;
+        transform: translate(0, -10vh);
+        font-size: calc(1rem + 2vw);
+
+        @media screen and(max-width: $size-mobile) {
+            transform: translate(0, 0);
+        }
+    }
+
+    a {
+        color: $color-1;
+        width: 90%;
+        font-size: calc(0.5rem + 1vw);
+
+        @media screen and(max-width: $size-mobile) {
+            font-size: calc(0.8rem + 1vh);
+        }
+    }
+
+    .error {
+        font-size: calc(1rem + 0.5vw);
+
+        @media screen and(max-width: $size-mobile) {
+            font-size: calc(1rem + 0.5vh);
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.live-auction {
+    display: flex;
+    justify-content: center;
+
+    p {
+        text-align: center;
+        font-size: calc(1rem + 0.8vw);
+        color: $color-1;
+
+        @media screen and(max-width: $size-mobile) {
+            font-size: calc(1rem + 0.8vh);
+        }
+    }
+
+    .live-container {
+        display: flex;
+        align-items: center;
+
+        .dot {
+            background: red;
+            border-radius: 50%;
+            width: 1em;
+            height: 1em;
+            transform-origin: center;
+            animation: flash 1.5s linear infinite;
+
+            @keyframes flash {
+                50% {
+                    opacity: 0;
+                }
+            }
+        }
+
+        .live {
+            color: red;
+            margin-left: 10px;
+        }
+    }
+}

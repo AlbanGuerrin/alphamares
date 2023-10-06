@@ -1,0 +1,22 @@
+.update-profil {
+    margin: 5% 20%;
+    padding: 5%;
+
+    .form {
+
+        .row-resp {
+            display: flex;
+            gap: 3%;
+            justify-content: center;
+
+            @media screen and(max-width: $size-mobile) {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .text-field{
+                flex: 1;
+            }
+        }
+    }
+}

@@ -1,0 +1,171 @@
+.NavBar, nav {
+  height: 10vh;
+  z-index: 10;
+  background: black;
+  display: flex;
+  align-items: center;
+  width: 95%;
+  justify-content: space-between;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+
+  li {
+    list-style-type: none;
+  }
+
+
+  select {
+    color: white;
+    background-color: transparent;
+    font-size: 1.1rem;
+
+    option {
+      color: white;
+      background-color: black;
+      margin: 0;
+    }
+  }
+
+  .language {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    img {
+      height: 1.5vw;
+
+      @media screen and(max-width: $size-mobile) {
+        height: 2vh;
+      }
+    }
+  }
+
+  .btn-container {
+    // margin-left: auto;
+    overflow: hidden;
+    width: 40%;
+
+    @media screen and(max-width: $size-mobile) {
+      width: 100%;
+    }
+
+    ul {
+      display: flex;
+      justify-content: flex-end;
+
+      li {
+        a {
+          text-overflow: ellipsis;
+          overflow: hidden; 
+        }
+        
+      }
+      .name {
+        max-width: 50%;
+      }
+    }
+
+    .MuiButton-root {
+      all: unset;
+    }
+
+    .btn-navBar {
+      display: block;
+      color: $color-1;
+      border: 2px solid;
+      border-color: $color-1;
+      margin: 0px 10px;
+      padding: calc(0.5px + 0.5vw) calc(2px + 1vw);
+      font-size: calc(0.8rem + pow(0.5vw,2));
+      border-radius: $border-radius;
+      font-weight: $weight-bold;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $color-1;
+        color: black;
+      }
+    }
+  }
+
+  .hamburger-menu {
+    display: none;
+    color: $color-1;
+    margin: 5%;
+
+    @media screen and(max-width: $size-mobile) {
+      display: block;
+    }
+
+
+    .hamburger-icon {
+      width: calc(2rem + 2vw);
+      height: calc(2rem + 2vw);
+    }
+  }
+
+  .logo {
+    .dynamicIcon {
+      .filledIcon {
+        display: none;
+      }
+
+      &:hover {
+        .filledIcon {
+          display: inline;
+        }
+
+        .outlinedIcon {
+          display: none;
+        }
+      }
+    }
+
+    img {
+      height: calc(15px + 1vw);
+      width: calc(15px + 1vw);
+
+      @media screen and(max-width: $size-mobile) {
+        height: calc(15px + 5vw);
+        width: calc(15px + 5vw);
+      }
+    }
+  }
+
+
+  .nav-container {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    gap: 5%;
+
+    .menu {
+      @media screen and(max-width: $size-mobile) {
+        height: 100%;
+      }
+
+      gap : 5vw;
+
+      h5 {
+        font-size: calc(0.8rem + 0.5vw*2);
+
+        &:hover {
+          color: $color-1;
+        }
+      }
+    }
+
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 2vw;
+    }
+
+
+    @media screen and(max-width: $size-mobile) {
+      display: none;
+    }
+  }
+
+}

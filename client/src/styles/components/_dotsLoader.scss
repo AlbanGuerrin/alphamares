@@ -1,0 +1,15 @@
+.loading {
+    background: white;
+    border-radius: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    transform-origin: center;
+    animation: pulse 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes pulse{
+    100%{
+      transform: scale(1.2);
+    }
+  }
+  

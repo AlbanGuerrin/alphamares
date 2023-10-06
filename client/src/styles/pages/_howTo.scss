@@ -1,0 +1,319 @@
+.how-to-sell,
+.how-to-buy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    @media screen and(max-width: $size-mobile) {
+        width: 90%;
+    }
+
+    h3 {
+        font-size: calc(1rem + 1.5vw);
+        text-align: center;
+
+        @media screen and(max-width: $size-mobile) {
+            font-size: calc(1rem + 1.5vh);
+        }
+    }
+
+    .container {
+        width: 80%;
+
+        @media screen and(max-width: $size-mobile) {
+            width: 100%;
+        }
+
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        hr {
+            width: 60%;
+            background-color: $color-1;
+            margin: 0;
+            transform: translate(0, calc((3rem + 3vw)/2));
+            z-index: -1;
+
+            @media screen and(max-width: $size-mobile) {
+                display: none;
+            }
+        }
+
+        .row {
+            display: flex;
+            width: 80%;
+            justify-content: center;
+
+            @media screen and(max-width: $size-mobile) {
+                display: block;
+            }
+        }
+
+        .circle {
+            display: flex;
+            width: calc(3rem + 3vw);
+            height: calc(3rem + 3vw);
+            background-color: $color-1;
+            border-radius: 50%;
+
+            @media screen and(max-width: $size-mobile) {
+                width: calc(3rem + 3vh);
+                height: calc(3rem + 3vh);
+            }
+
+            p {
+                margin: auto;
+                color: $color-4;
+                font-size: calc(2rem + 2vw);
+
+                @media screen and(max-width: $size-mobile) {
+                    font-size: calc(2rem + 3vh);
+                }
+            }
+        }
+
+        .col {
+            display: flex;
+            flex-direction: column;
+            flex: 3;
+            text-align: center;
+            align-items: center;
+            justify-content: flex-start;
+
+
+            .title {
+                font-weight: bold;
+                font-size: calc(1rem + 1vw);
+
+                @media screen and(max-width: $size-mobile) {
+                    font-size: calc(1rem + 2vh);
+                }
+            }
+
+            .text {
+                text-align: center;
+                padding: 5% 10%;
+                font-size: calc(0.5rem + 1vw);
+                width: 100%;
+
+                @media screen and(max-width: $size-mobile) {
+                    font-size: calc(1rem + 1vh);
+                    white-space: pre-line;
+                    width: 100%;
+                }
+
+                a {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .icon {
+            margin: auto;
+            color: $color-4;
+            font-size: calc(2.5rem + 2vw);
+
+            @media screen and(max-width: $size-mobile) {
+                font-size: calc(2rem + 2vh);
+            }
+        }
+
+        .lucide{
+         width: 1em;
+         width: 1em;
+        }
+
+
+    }
+
+    .infos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin-top: 5vh;
+
+        @media screen and(max-width: $size-mobile) {
+            width: 100%;
+        }
+
+        h2 {
+            font-weight: 900;
+            font-size: calc(1rem + 2vw);
+            line-height: calc(1rem + 2vw);
+
+            @media screen and(max-width: $size-mobile) {
+                font-size: calc(1rem + 2vh);
+                line-height: calc(1rem + 2vh);
+            }
+        }
+
+        h3 {
+            font-size: calc(1rem + 1vw);
+            line-height: calc(1rem + 1vw);
+
+            @media screen and(max-width: $size-mobile) {
+                font-size: calc(1rem + 1vh);
+                line-height: calc(1rem + 1vh);
+            }
+
+            text-align: center;
+            white-space: pre-line;
+        }
+
+        a {
+            margin-top: 5vh;
+            @media screen and(max-width: $size-mobile) {
+                width: 60%;
+            }
+        }
+    }
+
+    .form {
+        width: 50%;
+
+        @media screen and(max-width: $size-mobile) {
+            width: 100%;
+        }
+
+        .MuiPaper-root {
+            padding: 2%;
+            white-space: nowrap;
+            border-radius: $border-radius;
+            border: 3px solid $color-1;
+
+
+            .field {
+                display: flex;
+                width: 100%;
+                gap: 2vw;
+                align-items: center;
+
+                @media screen and(max-width: $size-mobile) {
+                    flex-direction: column;
+                }
+
+                .MuiFormControl-root {
+                    width: 80%;
+                }
+            }
+
+            .recap {
+                margin: auto;
+                width: 40%;
+
+                @media screen and(max-width: $size-mobile) {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                h3 {
+                    font-size: calc(1rem + 0.5vw);
+                    text-decoration: underline;
+
+                    @media screen and(max-width: $size-mobile) {
+                        font-size: calc(1rem + 0.9vh);
+                    }
+                }
+
+                h4 {
+                    font-size: calc(1rem + 0.3vw);
+
+                    @media screen and(max-width: $size-mobile) {
+                        font-size: calc(1rem + 0.7vh);
+                    }
+                }
+            }
+
+            button {
+                display: block;
+                border: none;
+                color: white;
+                background-color: $color-4;
+                margin: 2vh auto;
+                padding: calc(0.5px + 1vw) calc(5px + 1vw);
+                font-size: calc(1rem + 0.5vw);
+                border-radius: $border-radius;
+                font-weight: $weight-regular;
+                white-space: nowrap;
+                cursor: pointer;
+
+                @media screen and(max-width: $size-mobile) {
+                    padding: calc(5px + 1vh) calc(10px + 1vh);
+                    font-size: calc(1rem + 1vh);
+                }
+
+                &:hover {
+                    background-color: $color-1;
+                    color: $color-4;
+                }
+            }
+
+            .modif {
+                padding: calc(0.5px + 0.5vw) calc(5px + 0.5vw);
+                font-size: calc(1rem + 0.5vw);
+            }
+
+            .MuiInputBase-root {
+                padding-right: 0;
+                height: 100%;
+
+                .MuiInputAdornment-root {
+                    height: 100%;
+                    max-height: 100%;
+                }
+
+                button {
+                    display: block;
+                    border: none;
+                    color: white;
+                    background-color: $color-4;
+                    margin: 0;
+                    padding: calc(1px + 0.8vw) calc(1px + 1vw);
+                    font-size: calc(1rem + 0.5vw);
+                    border-radius: 0 4px 4px 0;
+                    font-weight: $weight-regular;
+                    white-space: nowrap;
+                    cursor: pointer;
+
+                    @media screen and(max-width: $size-mobile) {
+                        padding: calc(10px + 1vh) calc(20px + 1vh);
+                        font-size: calc(0.7rem + 1vh);
+                    }
+
+                    &:hover {
+                        background-color: $color-1;
+                        color: $color-4;
+                    }
+                }
+            }
+
+            h1 {
+                text-align: center;
+                font-weight: $weight-bold;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4 {
+                color: $color-4;
+            }
+
+            h2 {
+                text-align: flex-end;
+                width: 25%;
+
+                @media screen and(max-width: $size-mobile) {
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

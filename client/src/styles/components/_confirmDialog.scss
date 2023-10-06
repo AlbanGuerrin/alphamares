@@ -1,0 +1,41 @@
+.confirm-dialog {
+    position: absolute;
+    .MuiPaper-root {
+        border-radius: $card-border-radius;
+        border: solid black 3px;
+        padding: calc(10px + 2vw);
+
+        .message {
+            font-weight: bold;
+            font-size: calc(1em + 1vw);
+            color: black;
+            text-align: center;
+        }
+
+        button {
+            margin-top: calc(1vw + 1vh);
+            color: white;
+            background-color: black;
+            border: solid black 3px;
+            border-radius: $border-radius;
+            padding-inline: 2vw;
+
+            &:hover {
+                color: black;
+                background-color: white;
+            }
+
+            &:disabled {
+                color: gray;
+                background-color: white;
+                border: solid gray 1px;
+            }
+        }
+
+        .input-bill{
+            display: flex;
+            width: 90%;
+            cursor: pointer;
+        }
+    }
+}
